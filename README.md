@@ -24,9 +24,9 @@ cp .env.example .env.production
 Edit `.env.production`:
 
 ```env
-NEXT_PUBLIC_DERIV_APP_ID=your_app_id_here
+NEXT_PUBLIC_DERIV_APP_ID=env.production
 # NEXT_PUBLIC_DERIV_REDIRECT_URI=https://your-app.example.com/path/  # optional
-NEXT_PUBLIC_DERIV_APP_NAME=your_app_name_here
+NEXT_PUBLIC_DERIV_APP_NAME=xmoney
 NEXT_PUBLIC_DERIV_SHOW_APP_NAME=true
 NEXT_PUBLIC_DERIV_REFERRAL_LINK=your_referral_link_here
 NEXT_PUBLIC_DERIV_OAUTH_SCOPES=trade,account_manage
